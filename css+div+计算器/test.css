@@ -1,0 +1,57 @@
+#outer{
+	width:450px;
+	height:540px;
+	background-color:gray;
+	margin:0 auto;
+	border-radius:20px;
+}
+#top{
+	width:200px;
+	padding-left:20px;
+	height:50px;
+	margin:0 auto;
+	display:table-cell;
+	vertical-align:center;
+}
+.point{
+	width:20px;
+	height:20px;
+	float:left;
+	margin:10px 0 0 10px;
+	border-radius:50%;
+}
+.bg-red{
+	background-color:red;
+}
+.bg-blue{
+	background-color:blue;
+}
+.bg-green{
+	background-color:green;
+}
+#result{
+	width:97%;
+	height:50px;
+        background-color:white;
+        margin:0 auto;
+        border:solid 2px orangered;
+}
+#button{
+	width:99%;
+	height:420px;
+	margin:0 auto; 
+
+}
+#button div{
+	width:24%;
+	height:80px;
+	background-color:#7fffd4;
+	float:left;
+	margin:2px;
+	font-size:30px;
+	text-align:center;
+	line-height:80px;	
+}
+#button div:hover{
+	background-color:orangered;
+}

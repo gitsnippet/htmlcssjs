@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <script>
+        function validator(){
+            var  mytext = document.getElementById('myinput');
+            var  content = mytext.value;
+            var  pattern = new RegExp("^\\d+$");
+            if(!pattern.test(content)){
+                mytext.value = content.substring(0,content.length-1);
+            }
+        }
+    </script>
+</head>
+<body>
+	<input type="text" id="myinput" onkeyup="validator();">
+</body>
+</html>

@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title></title>
+    <link rel="stylesheet" href="a10.css">
+    <script src="a10.js"></script>
+</head>
+<body>
+    <div id="whole">
+    	<div id="video-play">
+                <video id="video" controls="controls"
+                    src="music.mkv" width="700px"  height="700px" 
+                    ondurationchange="durationChange();"
+                    ontimeupdate="timeUpdate();">
+                
+                
+                
+                </video>
+        
+        </div>
+    	<div id="time">
+            当前时间：
+            <span id="ptime">0</span> of <span id="duration">0</span>秒,
+        </div>
+    	<div id="position">
+            <input id="seekText" type="text">
+            <input id="seekBtn" type="button" value="定位" onclick="seekVideo();">
+            
+        </div>
+    </div>
+</body>
+</html>

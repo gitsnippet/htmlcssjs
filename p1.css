@@ -1,0 +1,10 @@
+body{
+    background-size:cover;
+    background-image:url("image/snow-night.jpg");
+}
+
+input{
+    width:80px;
+    height:40px;
+    font-weight:bold;
+}

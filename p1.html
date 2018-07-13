@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>fly</title>
+    <link rel="stylesheet" href="p1.css">
+    <script src="p1.js"></script>
+</head>
+<body>
+    <audio  loop="loop" autoplay="autoplay">
+        <!--        <source src="fly.mp3" type="audio/mpeg" />  -->
+            don't surpport the music
+    </audio>
+	<input type="button" value="新增" onclick="createManySnow();">
+	<input type="button" id="startButton"  value="开始"  onclick="timer=setInterval(startFly,100)">
+	<input type="button" id="stopButton"     value="停止" onclick="stopFly();">
+	<input type="button" value="删除" onclick="removeSnow();">
+</body>
+</html>

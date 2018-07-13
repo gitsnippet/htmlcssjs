@@ -1,0 +1,49 @@
+#face{
+    width:600px;
+    height:600px;
+    margin:20px auto;
+    border:2px solid red;
+    background-image:url("image/clockface.jpg");
+    position:relative;
+}
+
+#hour{
+    width:15px;
+    height:150px;
+    background-color:black;
+    position:absolute;
+    left:292px;
+    top:150px;
+    transform-origin:bottom center;
+}
+
+#minute{
+    width:10px;
+    height:175px;
+    background-color:black;
+    position:absolute;
+    left:295px;
+    top:125px;
+    transform-origin:bottom center;
+}
+
+#second{
+    width:4px;
+    height:200px;
+    background-color:black;
+    position:absolute;
+    left:298px;
+    top:100px;
+    transform-origin:bottom center;
+}
+
+#center{
+    width:30px;
+    height:30px;
+    background-color:black;
+    position:absolute;
+    left:285px;
+    top:285px;
+    border-radius:50%;
+}
+

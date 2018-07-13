@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>倒计时</title>
+    <link rel="stylesheet" href="p4.css">
+    <script src="p4.js"></script>
+</head>
+<body>
+    <div id="head">
+        <div id="logo">
+            <img src="timer/logo.jpg" alt="">
+        </div>
+        <div id="right">
+            <p>蜗牛学院-学员活动专用倒计时工具</p>
+            <p>祝各位参赛选手取得优秀成绩！</p>
+        </div>
+    </div>
+    <div id="main">
+        <div id="timer">
+            <div class="icon">
+                <img src="timer/minus.png" alt="" onclick="minus()">
+            </div>
+            <div class="counter">
+                <input id="total" type="text" value="10" onkeyup="check()">                
+            </div>
+            <div class="unit">
+                <p>分钟</p>
+            </div>
+            <div class="icon">
+                <img src="timer/plus.png" alt="" onclick="plus()">
+            </div>
+        </div>
+        <div id="counter">
+            <div id="hour" class="timer">00</div>
+            <div class="quote">-</div>
+            <div id="minute" class="timer">00</div>
+            <div class="quote">-</div>
+            <div id="second" class="timer">00</div>
+        </div>
+        <div id="button">
+            <div id="stop">
+                <img src="timer/pause.png" alt="" onclick="pause();">
+            </div>
+            <div id="start">
+                <img src="timer/start.png" alt="" onclick="start();">
+            </div>
+            <div id="refresh">
+                <img src="timer/refresh.png" alt="" onclick="refresh();">
+            </div>
+        </div>
+    </div>
+    <div id="footer">
+        <p>技术支持：成都蜗牛创想科技有限公司（蜗牛学院），http://www.woniuxy.com</p>
+    </div>
+    <audio id="done" preload="auto" >
+        <source src="timer/done.mp3" type="audio/mp3"   />
+    </audio>
+</body>
+</html>

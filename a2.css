@@ -1,0 +1,12 @@
+#trans-1{
+    margin:100px;
+    width:400px;
+    height:200px;
+    background-color:aquamarine;
+    animation:rotateme 5s;
+}
+
+@keyframes rotateme{
+    from{}
+    to{transform:rotate(-3600deg);}
+}

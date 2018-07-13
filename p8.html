@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="p8.css">
+    <script src="p8.js"></script>
+</head>
+<body onload="setInterval(startMove,3000)">
+    <div id="comment">图片轮播展示效果</div>
+    <div id="outer">
+        <div id="main">
+            <div id="prev" onclick="moveToPrev()"><</div>
+            <div id="next" onclick="moveToNext()">></div>
+            <ul id="box" onmouseover="showButton()" onmouseout="hideButton()">
+                <li><img src="image/i1.png" alt=""></li>
+                <li><img src="image/i2.png" alt=""></li>
+                <li><img src="image/i3.png" alt=""></li>
+                <li><img src="image/i2.png" alt=""></li>
+
+            </ul>
+        </div>
+    </div>
+</body>
+</html>

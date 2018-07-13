@@ -1,0 +1,54 @@
+#main{
+    width:600px;
+    height:400px;
+    border:1px solid red;
+    display:grid;
+    grid-template-columns:60px auto 60px;
+    grid-template-rows:60px auto 60px;
+    grid-template-areas:"des des des"
+                         "left  loopImg  right"
+                        "buttons buttons buttons";
+    margin:0 auto;
+}
+
+#des{
+    grid-column: 1/4;
+    grid-row:1/2;
+    margin:auto;
+}
+
+#loopImg{
+    grid-column:2/3;
+    grid-row:2/3;
+    border:1px solid green;
+    margin:auto;
+}
+
+#left{
+    grid-column:1/2;
+    grid-row:2/3;
+    margin:auto;
+}
+#right{
+    grid-column:3/4;
+    grid-row:2/3;
+    margin:auto;
+}
+
+#buttons{
+    grid-column:1/4;
+    grid-row:3/4;
+    margin:auto;
+}
+
+button{
+    width:30px;
+    height:30px;
+    border:1px solid green;
+    border-radius:50%;
+}
+
+img{
+    width:200px;
+    height:200px;
+}
